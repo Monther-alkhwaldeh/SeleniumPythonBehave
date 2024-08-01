@@ -16,7 +16,7 @@ def step_impl(context):
     print(u'STEP: When I validate the page title')
     title = context.driver.title
     print("Title is " + title)
-    assert "Googles" in title
+    assert "Google" in title
 
 
 @then(u'I Enter the text as "{search_text}"')
